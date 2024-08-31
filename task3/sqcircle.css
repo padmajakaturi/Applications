@@ -1,0 +1,23 @@
+#first{
+    box-sizing: border-box;
+    border: 5px solid black;
+    max-width: 500px;
+    height: 500px;
+    margin:120px 500px ;
+}
+#second{
+    box-sizing: border-box;
+    border: 5px solid black;
+    max-width: 300px;
+    height: 300px;
+    margin:90px 100px;
+    
+}
+#circle{
+    box-sizing: border-box;
+    border: 5px solid black;
+    max-width: 70px;
+    height: 70px;
+    margin: 110px 100px 100px 110px;
+    border-radius: 100px;
+}
