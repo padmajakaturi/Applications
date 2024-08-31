@@ -8,7 +8,6 @@
 }
 #second{
     box-sizing: border-box;
-    border-color: black;
     border: 5px solid black;
     max-width: 300px;
     height: 300px;
@@ -17,7 +16,6 @@
 }
 #third{
     box-sizing: border-box;
-    border-color: black;
     border: 5px solid black;
     max-width: 50px;
     height: 50px;
