@@ -1,0 +1,27 @@
+
+.container{
+    display: flex;
+    align-content: center;
+    margin: 250px 600px;
+}
+.square1{
+    box-sizing: border-box;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.square2{
+    box-sizing: border-box;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+}
+.square3{
+    box-sizing: border-box;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 50px 0px 0px -150px ;
+    
+}
