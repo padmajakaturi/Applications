@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    border: 3px solid black;
+    margin: 0;
+    min-height: 100vh;
+}
+.header{
+    margin: 0px;
+    padding: 10px 20px;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 3px solid black;
+    align-items: center;
+    background-color: bisque;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo img{
+    
+    height:100px;
+   
+ }
+.search input{
+    width: 600px;
+    height:40px;
+    background-color: transparent;
+    border-radius: 20px;
+    
+}
+.account img{
+    height: 40px;
+    cursor: pointer;
+    background-color: bisque;
+    
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+.posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+    
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+}
+
+.poster {
+    margin: 0% 0.5%;
+    border-radius: 0.4%;
+}
