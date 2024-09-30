@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+    background-color: white;
+}
+.top{
+    box-sizing: border-box;
+    padding: 20px 10px 10px 10px;
+    background-color:darkslategrey;
+}
+nav{
+    display: flex;
+    background-color: black;
+    padding: 10px 10px 10px 40px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px gray ;
+    color: white;
+}
+.logo img{
+    object-fit: contain;
+    max-width: 10%;
+    align-items: center;
+    
+}
+.action{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 0px 20px 0px 0px;
+}
+ 
+a{
+    color: white;
+    list-style: none;;
+}
+a:hover{
+    color: orange;
+}
+.menu{
+    width: 35px;
+    cursor: pointer;
+}
+.line{
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0px;
+    transition: all 0.3s ease;
+}
+.video{
+   width: 100%;
+   height: 50vh;
+   overflow: hidden;
+  
+}
+video{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.video {
+    position: relative;
+}
+.overlay{
+    color: honeydew;
+    position: absolute;
+    text-shadow: 2px 2px 2px rgb(167, 167, 167) ;
+    top:20px;
+    left:50px;
+    padding: 20px 20px;
+    border-radius: 20px;
+   margin: 50px 0px 0px 0px;
+}
+.overlay p{
+    margin: 0px 0px 10px 20px;
+    color: burlywood;
+}
+button{
+    width: 20%;
+    height:40px;
+    margin: 10px 0px 0px 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    background-color: gold;
+}
+.video::before {
+    content: '';
+    position: absolute;
+    top: 50;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 100), rgba(0, 0, 0, 0)); /* Gradient from top to bottom */
+    pointer-events: none; /* Ensures that the gradient doesn't interfere with video controls */
+}
+.cards .card img{
+    max-width: 20%;
+    margin:5px 5px;
+    padding: 5px px;
+    transition: transform 1s;
+}
+.card-image{  
+    display:flex;
+    margin:10px ;
+    padding: 5px 10px;
+    border: 2px solid black;
+}
+.card-image .desc{
+    margin: 10px 10px;
+}
