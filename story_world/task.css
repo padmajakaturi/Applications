@@ -25,6 +25,7 @@ nav{
 }
 .logo img{
     object-fit: contain;
+<<<<<<< HEAD
     max-width: 15%;
     align-items: center;
     shadow: 15px 5px 70px rgb(132, 227, 132);
@@ -33,6 +34,11 @@ nav{
 .logo h1{
 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0fa, 0 0 30px #0fa, 0 0 40px #0fa, 0 0 50px #0fa;    padding: 15px 15px;
     border-radius: 2px 20px;
+=======
+    max-width: 10%;
+    align-items: center;
+    
+>>>>>>> a2b7177ce26c54cc9dc510390da78d5c7d8184ad
 }
 .action{
     display: flex;
@@ -40,12 +46,22 @@ text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0fa, 0 0 30px #0fa, 0 0 40px
     align-items: center;
     margin: 0px 20px 0px 0px;
 }
+<<<<<<< HEAD
 .action a{
     color: white;
     list-style: none;;
 }
 .action a:hover{
     color: #62ab00;
+=======
+ 
+a{
+    color: white;
+    list-style: none;;
+}
+a:hover{
+    color: orange;
+>>>>>>> a2b7177ce26c54cc9dc510390da78d5c7d8184ad
 }
 .menu{
     width: 35px;
@@ -62,7 +78,11 @@ text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0fa, 0 0 30px #0fa, 0 0 40px
    width: 100%;
    height: 50vh;
    overflow: hidden;
+<<<<<<< HEAD
   margin-top: 0.3%;
+=======
+  
+>>>>>>> a2b7177ce26c54cc9dc510390da78d5c7d8184ad
 }
 video{
     width: 100%;
@@ -73,9 +93,12 @@ video{
     position: relative;
 }
 .overlay{
+<<<<<<< HEAD
     box-sizing: border-box;
     border: 2px solid white;
     box-shadow: 7px 7px 7px gray ;
+=======
+>>>>>>> a2b7177ce26c54cc9dc510390da78d5c7d8184ad
     color: honeydew;
     position: absolute;
     text-shadow: 2px 2px 2px rgb(167, 167, 167) ;
@@ -89,18 +112,26 @@ video{
     margin: 0px 0px 10px 20px;
     color: burlywood;
 }
+<<<<<<< HEAD
 .overlay button{
+=======
+button{
+>>>>>>> a2b7177ce26c54cc9dc510390da78d5c7d8184ad
     width: 20%;
     height:40px;
     margin: 10px 0px 0px 90px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     align-items: center;
     background-color: gold;
+<<<<<<< HEAD
     border-radius: 10px;
 }
 button:hover{
     transform: scale(1.03);
     }
+=======
+}
+>>>>>>> a2b7177ce26c54cc9dc510390da78d5c7d8184ad
 .video::before {
     content: '';
     position: absolute;
@@ -112,17 +143,24 @@ button:hover{
     pointer-events: none; /* Ensures that the gradient doesn't interfere with video controls */
 }
 .cards .card img{
+<<<<<<< HEAD
     box-sizing: border-box;
     border: 3px solid black;
     max-width: 28%;
+=======
+    max-width: 20%;
+>>>>>>> a2b7177ce26c54cc9dc510390da78d5c7d8184ad
     margin:5px 5px;
     padding: 5px px;
     transition: transform 1s;
 }
+<<<<<<< HEAD
 .cards .card img:hover{
     cursor: pointer;
     transform: scale(1.03);
 }
+=======
+>>>>>>> a2b7177ce26c54cc9dc510390da78d5c7d8184ad
 .card-image{  
     display:flex;
     margin:10px ;
@@ -131,6 +169,7 @@ button:hover{
 }
 .card-image .desc{
     margin: 10px 10px;
+<<<<<<< HEAD
     font-family: Arial;
 }
 .s1{
@@ -242,3 +281,6 @@ footer .col a{
 .sides:hover{
     color: black;
 }
+=======
+}
+>>>>>>> a2b7177ce26c54cc9dc510390da78d5c7d8184ad
