@@ -1,0 +1,12 @@
+nav{
+    display: flex;
+    
+    padding: 10px 10px 0px 40px;
+    justify-content: space-between;
+}
+.logo img{
+    object-fit: contain;
+    max-width: 30%;
+    align-items: center;
+    background-color: green;
+}
